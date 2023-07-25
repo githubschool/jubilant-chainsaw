@@ -1,0 +1,10 @@
+name: Hello World Action
+on: 
+  push:
+  
+jobs:
+  job-one:
+    name: I am the first job
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "hello world"
